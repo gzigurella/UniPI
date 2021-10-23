@@ -1,0 +1,33 @@
+/Users/gabrielezigurella/Desktop/Uni/Java/Assignments/FileCrawler
+	├── .DS_Store
+	├── result.txt
+	├── FileCrawler.iml
+
+/Users/gabrielezigurella/Desktop/Uni/Java/Assignments/FileCrawler/out
+	├── .DS_Store
+
+/Users/gabrielezigurella/Desktop/Uni/Java/Assignments/FileCrawler/out/production
+	├── .DS_Store
+
+/Users/gabrielezigurella/Desktop/Uni/Java/Assignments/FileCrawler/src
+	├── FileCrawler.java
+	├── MonitorDataStream.java
+	├── SyncList.java
+	├── Consumer.java
+	└── Producer.java
+
+/Users/gabrielezigurella/Desktop/Uni/Java/Assignments/FileCrawler/out/production/FileCrawler
+	├── MonitorDataStream.class
+	├── Consumer.class
+	├── Producer.class
+	├── FileCrawler.class
+	└── SyncList.class
+
+/Users/gabrielezigurella/Desktop/Uni/Java/Assignments/FileCrawler/.idea
+	├── uiDesigner.xml
+	├── runConfigurations.xml
+	├── .gitignore
+	├── workspace.xml
+	├── modules.xml
+	└── misc.xml
+

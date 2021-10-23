@@ -1,0 +1,3 @@
+HELLO JAVA!
+Simple Java HTTP web server
+Thanks for checking the file content :-)
