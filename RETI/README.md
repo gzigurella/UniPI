@@ -9,3 +9,4 @@ viene simulata l'operazione presso gli sportelli
 6. HTTP web server -- Creare un piccolo server che gestisca le richieste di GET da parte di un client
 7. UDP Ping Pong -- Replicare la utility Ping tramite il protocollo UDP, creare un apposito server ed un apposito client per la Utility
 8. JSON coder -- Creare un software che realizzi dei file JSON e li decodifichi secondo la richiesta
+9. Echo Client/Server -- Creare due software che utilizzino Java NIO per processare messaggi tra client e server, si faccia utilizzo di un Selector
