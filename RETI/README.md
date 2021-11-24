@@ -10,3 +10,4 @@ viene simulata l'operazione presso gli sportelli
 7. UDP Ping Pong -- Replicare la utility Ping tramite il protocollo UDP, creare un apposito server ed un apposito client per la Utility
 8. JSON coder -- Creare un software che realizzi dei file JSON e li decodifichi secondo la richiesta
 9. Echo Client/Server -- Creare due software che utilizzino Java NIO per processare messaggi tra client e server, si faccia utilizzo di un Selector
+10. Time Multicast Client/Server -- Creare due software, un Server Multicast che invia un messaggio contenente un timestamp ed un Client che riceve dal gruppo multicast la data e l'ora da stampare
