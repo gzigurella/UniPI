@@ -1,16 +1,4 @@
-(* Es 2.0 che tipo hanno le seguenti espressioni  *)
-(*
-
-1. `[(3,4);(2,1)]`      |       (int * int) list
-2. `fun x lis -> x::lis`    |   a' -> a' list -> a' list = <fun> <--- (a' list) è il risultato di x::lis
-3. `fun x lis -> let b=x>0 in if b then lis else [b]`   |  int -> bool list -> bool list = <fun> <--- arguments int x and list list, since we return a bool list in the else branch, list must be of bool type
-4. `fun x -> []::x` |   a' list -> a' list list = <fun> <--- argument x is appended to a list, then it must be of type "a' list"
-5. `let f n = n+1 in if true then [f] else [(fun x -> x); (fun x-> x-1)]`   |   (int -> int) list = [<fun>]
-
-    int -> int è l'argomento (n -> n+1) mentre [<fun>] è una lista di funzioni, ritorna la funzione stessa oppure un'altra lista di funzioni
-
-*)
-
+(* Utility functions *)
 open Printf;;
 
 (* print list *)
@@ -41,12 +29,9 @@ let rec genera_lista n =
 (* print_list (genera_lista 5);; -- remove comment to debug print -- *) 
 
 (* Es 2.2 Scrivere una funzione media che prende una lista di interi e calcola la media dei suoi elementi. *)
-(* use iterator for media function *)
 let media list = let acc = List.fold_left (+) 0 list in acc / (List.length list);;
 
-let test_media = media [5;3;4];;
-
-(* printf "%d\n" test_media;; -- remove comment to debug print -- *)
+(* printf "%d\n" (media [5;3;4]);; -- remove comment to debug print -- *)
 
 (* Es 2.3 Scrivere una funzione take che prende una lista lis e un intero n e restituisce la lista contenente i primi n elementi di lis. 
             Se n è minore di 0 resituisce la lista vuota.*)
